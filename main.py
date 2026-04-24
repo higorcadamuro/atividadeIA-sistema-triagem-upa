@@ -189,9 +189,9 @@ MENU = """
 """
 
 def repl():
-    print(MENU)
     while True:
         try:
+            print(MENU)
             opcao = input("  Opção: ").strip()
         except (EOFError, KeyboardInterrupt):
             print("\n  Encerrando...")
