@@ -3,6 +3,18 @@
 Trabalho da disciplina de Inteligencia Artificial (J903 - 2026).
 Sistema com encadeamento progressivo para triagem em UPA.
 
+## Grupo
+
+Turma: CC5P13
+
+| Nome                                | RA       |
+| ----------------------------------- | -------- |
+| Gustavo Gomes Alcântara             | R0902G8  |
+| Higor Ferreira Cadamuro             | R093085  |
+| Ikenna Daniel Achinefu              | F35BGJ0  |
+| Vinicius Viscaino Pires             | G03AAI1  |
+| Yurie Gabryel Netto Francisco       | R059AH4  |
+
 ## O que o sistema faz
 
 - recebe os dados do paciente (perfil + leituras de sinais vitais);
@@ -11,6 +23,12 @@ Sistema com encadeamento progressivo para triagem em UPA.
 - reage a piora ao longo do tempo usando as regras E1 a E5;
 - ordena a fila com um criterio de desempate auditavel;
 - registra tudo em um log explicavel.
+
+## Dependencias
+
+Apenas biblioteca padrao do Python (`json`, `sys`). Nao usa pip, nao tem `requirements.txt` e nao usa nenhuma biblioteca de machine learning.
+
+Requer Python 3.8 ou superior.
 
 ## Como rodar
 
