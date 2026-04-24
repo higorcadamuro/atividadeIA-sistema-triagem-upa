@@ -191,6 +191,7 @@ MENU = """
 def repl():
     while True:
         try:
+            input("Pressione 'Enter' para continuar: ")
             print(MENU)
             opcao = input("  Opção: ").strip()
         except (EOFError, KeyboardInterrupt):
